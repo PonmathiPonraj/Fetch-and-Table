@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="getApiData.css">
+    <title>....</title>
+</head>
+<body>
+    <form id="headcont">
+        <select id="options">
+          <option value="">Select the Status</option>
+          <option value="Active">Active</option>
+          <option value="Retired">Retried</option>
+          <option value="Unknown">Unknown</option>
+          <option value="Destroyed">Destroyed</option>
+        </select>
+        <button type="button" onclick="loading()">Load</button>
+    </form>
+    <hr>
+      
+    <table>
+        <thead>
+        <tr id="mainheading">
+            
+        </tr>
+        <tr id="heading">
+            
+        </tr>
+        </thead>
+        <tbody id="data">
+        
+        </tbody>
+    </table>
+
+    <script src="getApiData.js"></script>
+      
+</body>
+</html>
